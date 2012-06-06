@@ -15,6 +15,7 @@ Generally useful recipes might be added to compass.
 You can (re-)build the recipes by running:
 
 `bundle install`
+
 `bundle exec rake`
 
 ## Adding Recipes to the Live Demo

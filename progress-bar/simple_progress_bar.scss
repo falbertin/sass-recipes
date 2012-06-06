@@ -3,13 +3,16 @@
 $bar-fill-color: #a9c13b;
 
 .bar {
-  border: 1px solid #666666;
-  margin-top: 0.25em; }
+	border: 1px solid #666;
+	margin-top: 0.25em;
+}
 
 .fill {
-  height: 1.333em;
-  background: $bar-fill-color;
-  @include background-image(linear-gradient(color-stops($bar-fill-color, darken($bar-fill-color, 25%)))); }
+	height: 1.333em;
+	background: $bar-fill-color;
+	@include background-image(linear-gradient(color-stops($bar-fill-color, darken($bar-fill-color, 25%))));
+}
 
 .bar, .fill {
-  @include border-radius(3px); }
+	@include border-radius(3px);
+}

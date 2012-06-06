@@ -1,10 +1,10 @@
 /* line 3, css-arrow-example.scss */
 body {
-  font-family: "Helvetica Neue", Arial, san-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 12px;
 }
 
-/* line 7, css-arrow-example.scss */
+/* line 10, css-arrow-example.scss */
 .arrow {
   border: 1px solid #456eb9;
   background: #e7eff4;
@@ -13,12 +13,12 @@ body {
   padding: 10px;
   margin-bottom: 10px;
 }
-/* line 18, css-arrow-example.scss */
+/* line 21, css-arrow-example.scss */
 .arrow.east {
   margin-right: 50px;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 .arrow.east:before {
   content: "\00a0";
   display: block;
@@ -32,7 +32,7 @@ body {
   border-style: solid;
   border-color: transparent transparent transparent #456eb9;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 .arrow.east:after {
   content: "\00a0";
   display: block;
@@ -46,12 +46,12 @@ body {
   border-style: solid;
   border-color: transparent transparent transparent #e7eff4;
 }
-/* line 21, css-arrow-example.scss */
+/* line 25, css-arrow-example.scss */
 .arrow.south {
   margin-bottom: 50px;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 .arrow.south:before {
   content: "\00a0";
   display: block;
@@ -65,7 +65,7 @@ body {
   border-style: solid;
   border-color: #456eb9 transparent transparent transparent;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 .arrow.south:after {
   content: "\00a0";
   display: block;
@@ -79,12 +79,12 @@ body {
   border-style: solid;
   border-color: #e7eff4 transparent transparent transparent;
 }
-/* line 24, css-arrow-example.scss */
+/* line 29, css-arrow-example.scss */
 .arrow.north {
   margin-top: -15px;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 .arrow.north:before {
   content: "\00a0";
   display: block;
@@ -98,7 +98,7 @@ body {
   border-style: solid;
   border-color: transparent transparent #456eb9 transparent;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 .arrow.north:after {
   content: "\00a0";
   display: block;
@@ -112,13 +112,13 @@ body {
   border-style: solid;
   border-color: transparent transparent #e7eff4 transparent;
 }
-/* line 27, css-arrow-example.scss */
+/* line 33, css-arrow-example.scss */
 .arrow.west {
   margin-left: 50px;
   width: 450px;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 .arrow.west:before {
   content: "\00a0";
   display: block;
@@ -132,7 +132,7 @@ body {
   border-style: solid;
   border-color: transparent #456eb9 transparent transparent;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 .arrow.west:after {
   content: "\00a0";
   display: block;
@@ -146,13 +146,13 @@ body {
   border-style: solid;
   border-color: transparent #e7eff4 transparent transparent;
 }
-/* line 31, css-arrow-example.scss */
+/* line 38, css-arrow-example.scss */
 .arrow.borderless {
   border: none;
   margin-right: 50px;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 .arrow.borderless:before {
   content: "\00a0";
   display: block;
@@ -166,7 +166,7 @@ body {
   border-style: solid;
   border-color: transparent transparent transparent #456eb9;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 .arrow.borderless:after {
   content: "\00a0";
   display: block;
@@ -181,7 +181,7 @@ body {
   border-color: transparent transparent transparent #e7eff4;
 }
 
-/* line 37, css-arrow-example.scss */
+/* line 46, css-arrow-example.scss */
 blockquote {
   border: 5px solid #333333;
   background: #cccccc;
@@ -192,7 +192,7 @@ blockquote {
   margin-left: 0;
   position: relative;
 }
-/* line 12, _css-arrow.sass */
+/* line 12, _css-arrow.scss */
 blockquote:before {
   content: "\00a0";
   display: block;
@@ -206,7 +206,7 @@ blockquote:before {
   border-style: solid;
   border-color: #333333 transparent transparent transparent;
 }
-/* line 33, _css-arrow.sass */
+/* line 38, _css-arrow.scss */
 blockquote:after {
   content: "\00a0";
   display: block;

@@ -1,10 +1,10 @@
 /* line 5, simple_progress_bar.scss */
 .bar {
-  border: 1px solid #666666;
+  border: 1px solid #666;
   margin-top: 0.25em;
 }
 
-/* line 9, simple_progress_bar.scss */
+/* line 10, simple_progress_bar.scss */
 .fill {
   height: 1.333em;
   background: #a9c13b;
@@ -16,7 +16,7 @@
   background-image: linear-gradient(#a9c13b, #535f1d);
 }
 
-/* line 14, simple_progress_bar.scss */
+/* line 16, simple_progress_bar.scss */
 .bar, .fill {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;

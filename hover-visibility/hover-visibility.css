@@ -1,12 +1,12 @@
-/* line 14, hover-visibility.scss */
+/* line 17, hover-visibility.scss */
 .container {
   width: 400px;
-  border: 10px solid #777777;
+  border: 10px solid #777;
   margin: 100px auto;
   text-align: center;
 }
 
-/* line 20, hover-visibility.scss */
+/* line 24, hover-visibility.scss */
 .within-container {
   visibility: hidden;
   opacity: 0;
@@ -16,7 +16,7 @@
   -o-transition: opacity visibility, 0.333s, ease;
   transition: opacity visibility, 0.333s, ease;
 }
-/* line 23, hover-visibility.scss */
+/* line 27, hover-visibility.scss */
 .container:hover .within-container, .within-container.sticky {
   visibility: visible;
   opacity: 1;
