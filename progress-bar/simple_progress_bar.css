@@ -1,24 +1,26 @@
-/* line 4, simple_progress_bar.sass */
+/* line 5, simple_progress_bar.scss */
 .bar {
   border: 1px solid #666666;
   margin-top: 0.25em;
 }
 
-/* line 7, simple_progress_bar.sass */
+/* line 9, simple_progress_bar.scss */
 .fill {
   height: 1.333em;
   background: #a9c13b;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #a9c13b), color-stop(100%, #535f1d));
-  background-image: -moz-linear-gradient(top, #a9c13b 0%, #535f1d 100%);
-  background-image: linear-gradient(top, #a9c13b 0%, #535f1d 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a9c13b), color-stop(100%, #535f1d));
+  background-image: -webkit-linear-gradient(#a9c13b, #535f1d);
+  background-image: -moz-linear-gradient(#a9c13b, #535f1d);
+  background-image: -o-linear-gradient(#a9c13b, #535f1d);
+  background-image: -ms-linear-gradient(#a9c13b, #535f1d);
+  background-image: linear-gradient(#a9c13b, #535f1d);
 }
 
-/* line 11, simple_progress_bar.sass */
+/* line 14, simple_progress_bar.scss */
 .bar, .fill {
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
 }
