@@ -1,23 +1,4 @@
-/* line 17, hover-visibility.scss */
-.container {
-  width: 400px;
-  border: 10px solid #777;
-  margin: 100px auto;
-  text-align: center;
-}
+.container { width: 400px; border: 10px solid #777; margin: 100px auto; text-align: center; }
 
-/* line 24, hover-visibility.scss */
-.within-container {
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity visibility, 0.333s, ease;
-  -moz-transition: opacity visibility, 0.333s, ease;
-  -ms-transition: opacity visibility, 0.333s, ease;
-  -o-transition: opacity visibility, 0.333s, ease;
-  transition: opacity visibility, 0.333s, ease;
-}
-/* line 27, hover-visibility.scss */
-.container:hover .within-container, .within-container.sticky {
-  visibility: visible;
-  opacity: 1;
-}
+.within-container { visibility: hidden; opacity: 0; -webkit-transition: opacity visibility, 0.333s, ease; -moz-transition: opacity visibility, 0.333s, ease; -ms-transition: opacity visibility, 0.333s, ease; -o-transition: opacity visibility, 0.333s, ease; transition: opacity visibility, 0.333s, ease; }
+.container:hover .within-container, .within-container.sticky { visibility: visible; opacity: 1; }

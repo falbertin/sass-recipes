@@ -2,9 +2,9 @@
 	font-size: $font-size;
 	@include border-radius(100px);
 	border: 1px solid #cccccc;
-	border-top-color: #999999;
+	border-top-color: #999;
 	border-left-color: #b0b0b0;
-	border-right-color: #bbbbbb;
+	border-right-color: #bbb;
 	background: white image-url("search.png") 4px center no-repeat;
 	@include box-shadow(rgba(black, 0.2), 0, 1px, 0, inset);
 	width: 180px;

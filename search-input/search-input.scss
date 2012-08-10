@@ -1,6 +1,4 @@
 @import "compass";
 @import "search-input";
 
-input[type=search], input.search {
-	@include search-input;
-}
+input[type=search], input.search { 	@include search-input; }

@@ -10,7 +10,7 @@ $bar-fill-color: #a9c13b;
 .fill {
 	height: 1.333em;
 	background: $bar-fill-color;
-	@include background-image(linear-gradient(color-stops($bar-fill-color, darken($bar-fill-color, 25%))));
+	@include background(linear-gradient(color-stops($bar-fill-color, darken($bar-fill-color, 25%))));
 }
 
 .bar, .fill {
